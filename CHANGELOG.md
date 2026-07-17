@@ -1,3 +1,9 @@
+## 1.0.0 (2026-07-17)
+
+### ✨ New Features
+
+* initial patches release ([98ecf42](https://github.com/ch3thanhs/stylus/commit/98ecf42cf53795e2553d4cce10a2834bd1e894a4))
+
 ## [1.2.0](https://github.com/ch3thanhs/stylus/compare/v1.1.0...v1.2.0) (2026-07-17)
 
 ### ✨ New Features
