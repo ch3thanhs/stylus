@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/ch3thanhs/stylus/compare/v1.0.0...v1.0.1) (2026-07-19)
+
+### 🐛 Bug Fixes
+
+* **reddit:** support min-version font hook shape ([5aca099](https://github.com/ch3thanhs/stylus/commit/5aca099cfe1ca9ae0c69753d31c8f339875d5176))
+
 ## [1.0.1-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.0.0...v1.0.1-dev.1) (2026-07-19)
 
 ### 🐛 Bug Fixes
