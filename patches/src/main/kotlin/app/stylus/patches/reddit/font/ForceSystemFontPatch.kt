@@ -18,22 +18,32 @@ val forceSystemFontPatch = bytecodePatch(
     extendWith("extensions/extension.mpe")
 
     execute {
-        // TypefaceCompat.createFromResourcesFontFile is the central choke point that
-        // returns a Typeface for every R.font.* lookup made by AndroidX (and therefore
-        // by Compose's FontFamily resolver and View's font attribute).
-        // Param mapping for this static method:
-        //   p0 = Resources, p1 = font res id, p2 = path,
-        //   p3 = ttc index, p4 = style (Typeface.NORMAL / BOLD / ITALIC / BOLD_ITALIC).
-        TypefaceCompatCreateFromResourcesFontFileFingerprint.method.addInstructionsWithLabels(
+        val targetMethod = resolveTypefaceCompatCreateFromResourcesFontFileTarget()
+
+        // Param mapping changes between legacy and modern method shapes.
+        targetMethod.method.addInstructionsWithLabels(
             0,
-            """
-                invoke-static { p4 }, $EXTENSION_CLASS->getSystemTypeface(I)Landroid/graphics/Typeface;
-                move-result-object v0
-                if-eqz v0, :original
-                return-object v0
-                :original
-                nop
-            """
+            when (targetMethod.variant) {
+                TypefaceCompatCreateFromResourcesFontFileVariant.LEGACY_STATIC ->
+                    """
+                        invoke-static { p4 }, $EXTENSION_CLASS->getSystemTypeface(I)Landroid/graphics/Typeface;
+                        move-result-object v0
+                        if-eqz v0, :original
+                        return-object v0
+                        :original
+                        nop
+                    """
+
+                TypefaceCompatCreateFromResourcesFontFileVariant.MODERN_VIRTUAL ->
+                    """
+                        invoke-static { p5 }, $EXTENSION_CLASS->getSystemTypeface(I)Landroid/graphics/Typeface;
+                        move-result-object v0
+                        if-eqz v0, :original
+                        return-object v0
+                        :original
+                        nop
+                    """
+            }
         )
     }
 }
