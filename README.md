@@ -6,6 +6,14 @@ A collection of font related [Morphe](https://morphe.software) patches.
 > **Experimental & AI-Assisted**  
 > These patches were created with AI assistance and have only been tested on my personal device. Please review the source code carefully and use them at your own risk.
 
+> [!IMPORTANT]
+> **Reddit patches moving to official Morphe Patches**  
+> The Reddit font patches in this repository are being merged into [MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches).
+>
+> - If you use the official Morphe Patches source, **do not enable Stylus at the same time** — applying both will conflict.
+> - If you already patched Reddit using Stylus, your install continues to work and nothing needs to change.
+> - For future Reddit patching, use the official Morphe source. Stylus Reddit patches will not receive long-term maintenance.
+
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
