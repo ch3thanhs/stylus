@@ -1,3 +1,9 @@
+## [1.1.0-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.0.1...v1.1.0-dev.1) (2026-07-21)
+
+### ✨ New Features
+
+* **bitwarden:** add force system font patch ([f24142d](https://github.com/ch3thanhs/stylus/commit/f24142d437cbf7c3ca0418b8f688ca08db1acaac))
+
 ## [1.0.1](https://github.com/ch3thanhs/stylus/compare/v1.0.0...v1.0.1) (2026-07-19)
 
 ### 🐛 Bug Fixes

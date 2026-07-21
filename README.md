@@ -17,7 +17,7 @@ A collection of font related [Morphe](https://morphe.software) patches.
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.1](https://github.com/ch3thanhs/stylus/releases/tag/v1.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+> **[v1.1.0-dev.1](https://github.com/ch3thanhs/stylus/releases/tag/v1.1.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
 <details open>
 <summary>📦 Reddit&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
@@ -31,6 +31,21 @@ A collection of font related [Morphe](https://morphe.software) patches.
 |----------|----------------|-----------|
 | [Custom font](#custom-font) | Applies a custom font selected while patching, replacing Reddit Sans / Roboto. A variable font is recommended so heading and body text keep their different weights. Do not enable "Force system font" at the same time. | • Custom font |
 | [Force system font](#force-system-font) | Renders the app using the device's system font instead of Reddit Sans / Roboto. |  |
+
+</details>
+
+<details open>
+<summary>📦 Bitwarden&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 2026.6.1 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Force system font (Bitwarden)](#force-system-font-bitwarden) | Renders the app using the device's system font instead of DM Sans / Roboto. |  |
 
 </details>
 
