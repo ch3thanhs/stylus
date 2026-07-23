@@ -3,8 +3,7 @@ group = "app.stylus"
 patches {
     about {
         name = "Stylus"
-        description = "Personal Morphe patches. Includes: Force system font (Reddit), " +
-            "Custom font (Reddit), Force system font (Bitwarden)."
+        description = "Personal Morphe patches. Includes: Force system font (Bitwarden)."
         source = "git@github.com:ch3thanhs/stylus.git"
         author = "ch3thanhs"
         contact = "na"
