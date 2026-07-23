@@ -1,3 +1,9 @@
+## [1.2.0-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.1.0...v1.2.0-dev.1) (2026-07-23)
+
+### ✨ New Features
+
+* **reddit:** remove stylus reddit font patches ([6cb87e3](https://github.com/ch3thanhs/stylus/commit/6cb87e3b5cc4d4d1338ae0c983dff288e4547b18))
+
 ## [1.1.0](https://github.com/ch3thanhs/stylus/compare/v1.0.1...v1.1.0) (2026-07-21)
 
 ### ✨ New Features
