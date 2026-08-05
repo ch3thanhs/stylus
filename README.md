@@ -62,10 +62,6 @@ Or manually add this repository url as a patch source in Morphe: https://github.
 To build Stylus,
 you can follow the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation).
 
-### Disclaimer
-
-*Stylus is an independent project. It is not affiliated with, created by, or endorsed by the official Morphe project. All references to Morphe are strictly for descriptive compatibility purposes.*
-
 ## License
 
 Stylus is licensed under the [GNU General Public License v3.0](LICENSE)
