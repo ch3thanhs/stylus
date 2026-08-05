@@ -32,6 +32,28 @@ public final class ForceSystemFontPatch {
         return null;
     }
 
+    public static Typeface getSystemTypefaceWithUiMonospace(Context context, int resourceId, int style) {
+        if (context == null) {
+            return null;
+        }
+
+        String path = resolveResourcePath(context, resourceId);
+        if (path == null || !path.startsWith("res/font/")) {
+            return null;
+        }
+
+        String lowerCasePath = path.toLowerCase();
+        if (lowerCasePath.contains("roboto_mono")) {
+            return Typeface.create(Typeface.DEFAULT, style);
+        }
+
+        if (lowerCasePath.contains("inter") || lowerCasePath.contains("monasans")) {
+            return Typeface.create(Typeface.DEFAULT, style);
+        }
+
+        return null;
+    }
+
     private static String resolveResourcePath(Context context, int resourceId) {
         try {
             TypedValue typedValue = new TypedValue();
