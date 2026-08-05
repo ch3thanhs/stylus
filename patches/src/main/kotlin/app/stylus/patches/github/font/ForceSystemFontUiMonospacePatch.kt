@@ -8,9 +8,9 @@ import app.stylus.patches.github.shared.Constants.COMPATIBILITY_GITHUB
 private const val EXTENSION_CLASS =
     "Lapp/stylus/extension/github/patches/ForceSystemFontPatch;"
 
-private val forceSystemFontGithubCssPatch = resourcePatch(
-    name = "Force system font web content (GitHub)",
-    description = "Internal dependency patch for force system font webview CSS override.",
+private val forceSystemFontGithubUiMonospaceCssPatch = resourcePatch(
+    name = "Force system font ui monospace web content (GitHub)",
+    description = "Internal dependency patch for webview CSS override used by Force system font (UI monospace).",
     default = true,
 ) {
     compatibleWith(COMPATIBILITY_GITHUB)
@@ -32,7 +32,7 @@ code,
 tt,
 kbd,
 samp {
-    font-family: monospace;
+    font-family: sans-serif;
 }
 """.trimIndent() + "\n"
         )
@@ -40,13 +40,13 @@ samp {
 }
 
 @Suppress("unused")
-val forceSystemFontGithubPatch = bytecodePatch(
-    name = "Force system font (GitHub)",
-    description = "Renders GitHub UI text using the device system font by overriding bundled font resources at runtime.",
-    default = true,
+val forceSystemFontGithubUiMonospacePatch = bytecodePatch(
+    name = "Force system font (including monospace) (GitHub)",
+    description = "Renders GitHub UI and monospace text using the device system UI font.",
+    default = false,
 ) {
     compatibleWith(COMPATIBILITY_GITHUB)
-    dependsOn(forceSystemFontGithubCssPatch)
+    dependsOn(forceSystemFontGithubUiMonospaceCssPatch)
 
     extendWith("extensions/extension.mpe")
 
@@ -54,7 +54,7 @@ val forceSystemFontGithubPatch = bytecodePatch(
         ResourcesCompatGetFontFingerprint.method.addInstructions(
             0,
             """
-                invoke-static { p0, p1, p3 }, $EXTENSION_CLASS->getSystemTypeface(Landroid/content/Context;II)Landroid/graphics/Typeface;
+                invoke-static { p0, p1, p3 }, $EXTENSION_CLASS->getSystemTypefaceWithUiMonospace(Landroid/content/Context;II)Landroid/graphics/Typeface;
                 move-result-object v0
                 if-eqz v0, :original
                 return-object v0
