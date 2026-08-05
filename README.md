@@ -16,9 +16,9 @@ A collection of font related [Morphe](https://morphe.software) patches.
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.3.0](https://github.com/ch3thanhs/stylus/releases/tag/v1.3.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
+> **[v1.4.0-dev.1](https://github.com/ch3thanhs/stylus/releases/tag/v1.4.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;5 patches total
 <details open>
-<summary>📦 GitHub&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<summary>📦 GitHub&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -31,6 +31,7 @@ A collection of font related [Morphe](https://morphe.software) patches.
 | [Custom font (GitHub)](#custom-font-github) | Replaces GitHub's bundled Inter and Mona Sans UI fonts with a custom font file. | • Custom font |
 | [Custom monospace font (GitHub)](#custom-monospace-font-github) | Replaces GitHub's bundled Roboto Mono code font with a custom monospace font file. | • Custom monospace font |
 | [Force system font (GitHub)](#force-system-font-github) | Renders GitHub UI text using the device system font by overriding bundled font resources at runtime. |  |
+| [Force system font (including monospace) (GitHub)](#force-system-font-including-monospace-github) | Renders GitHub UI and monospace text using the device system UI font. |  |
 
 </details>
 
