@@ -16,15 +16,32 @@ A collection of font related [Morphe](https://morphe.software) patches.
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.2.0](https://github.com/ch3thanhs/stylus/releases/tag/v1.2.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+> **[v1.3.0-dev.1](https://github.com/ch3thanhs/stylus/releases/tag/v1.3.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
+<details open>
+<summary>📦 GitHub&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.270.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Custom font (GitHub)](#custom-font-github) | Replaces GitHub's bundled Inter and Mona Sans UI fonts with a custom font file. | • Custom font |
+| [Custom monospace font (GitHub)](#custom-monospace-font-github) | Replaces GitHub's bundled Roboto Mono code font with a custom monospace font file. | • Custom monospace font |
+| [Force system font (GitHub)](#force-system-font-github) | Renders GitHub UI text using the device system font by overriding bundled font resources at runtime. |  |
+
+</details>
+
 <details open>
 <summary>📦 Bitwarden&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
 **🎯 Supported versions:**
 
-| 2026.6.1 |
-| :---: |
+| 2026.7.0 | 2026.6.1 |
+| :---: | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
