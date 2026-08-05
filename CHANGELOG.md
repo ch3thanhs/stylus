@@ -1,3 +1,9 @@
+## [1.3.0-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.2.0...v1.3.0-dev.1) (2026-08-05)
+
+### ✨ New Features
+
+* **github:** add font patches ([df4b6de](https://github.com/ch3thanhs/stylus/commit/df4b6de71da56f8ae4fe7d9563260cd9c80ebb32))
+
 ## [1.2.0](https://github.com/ch3thanhs/stylus/compare/v1.1.0...v1.2.0) (2026-07-23)
 
 ### ✨ New Features
