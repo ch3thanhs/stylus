@@ -1,3 +1,13 @@
+## [1.4.1-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.4.0...v1.4.1-dev.1) (2026-08-28)
+
+### 🐛 Bug Fixes
+
+* **github:** restore custom monospace font support ([63b633a](https://github.com/ch3thanhs/stylus/commit/63b633a909ce0720939db6177f14e3457720c191))
+
+### 🚀 Updated App Support
+
+* update GitHub and Bitwarden app support ([7ac2cc0](https://github.com/ch3thanhs/stylus/commit/7ac2cc040929dcea26a2eccc9fd1ea4c2dca0dea))
+
 ## [1.4.0](https://github.com/ch3thanhs/stylus/compare/v1.3.0...v1.4.0) (2026-08-05)
 
 ### ✨ New Features
