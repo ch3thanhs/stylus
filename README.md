@@ -16,7 +16,7 @@ A collection of font related [Morphe](https://morphe.software) patches.
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.5.0-dev.1](https://github.com/ch3thanhs/stylus/releases/tag/v1.5.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;6 patches total
+> **[v1.5.0](https://github.com/ch3thanhs/stylus/releases/tag/v1.5.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;6 patches total
 <details open>
 <summary>📦 GitHub&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>

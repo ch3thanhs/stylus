@@ -1,3 +1,9 @@
+## [1.5.0](https://github.com/ch3thanhs/stylus/compare/v1.4.1...v1.5.0) (2026-08-29)
+
+### ✨ New Features
+
+* **instagram:** add force system font patch ([6bffefb](https://github.com/ch3thanhs/stylus/commit/6bffefb7431e5d8c4ed459a6af5a1e24da4998e3))
+
 ## [1.5.0-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.4.1...v1.5.0-dev.1) (2026-08-29)
 
 ### ✨ New Features
