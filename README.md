@@ -16,7 +16,7 @@ A collection of font related [Morphe](https://morphe.software) patches.
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.4.1](https://github.com/ch3thanhs/stylus/releases/tag/v1.4.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;5 patches total
+> **[v1.5.0-dev.1](https://github.com/ch3thanhs/stylus/releases/tag/v1.5.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;6 patches total
 <details open>
 <summary>📦 GitHub&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>
@@ -47,6 +47,21 @@ A collection of font related [Morphe](https://morphe.software) patches.
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Force system font (Bitwarden)](#force-system-font-bitwarden) | Renders the app using the device's system font instead of DM Sans / Roboto. |  |
+
+</details>
+
+<details open>
+<summary>📦 Instagram&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 435.0.0.37.76 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Force system font (Instagram)](#force-system-font-instagram) | Renders Instagram UI text using the device system font. |  |
 
 </details>
 
