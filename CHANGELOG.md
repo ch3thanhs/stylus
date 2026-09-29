@@ -1,3 +1,9 @@
+## [1.5.4-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.5.3...v1.5.4-dev.1) (2026-09-29)
+
+### 🐛 Bug Fixes
+
+* **github:** preserve custom monospace in markdown ([69a1ab5](https://github.com/ch3thanhs/stylus/commit/69a1ab5aac9079701febfc9e9300e177dba90b7e))
+
 ## [1.5.3](https://github.com/ch3thanhs/stylus/compare/v1.5.2...v1.5.3) (2026-09-24)
 
 ### 🚀 Updated App Support
