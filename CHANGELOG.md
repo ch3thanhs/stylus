@@ -1,3 +1,9 @@
+## [1.5.5-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.5.4...v1.5.5-dev.1) (2026-09-30)
+
+### 🐛 Bug Fixes
+
+* **instagram:** remove font patch covered by Piko ([bbd0bb6](https://github.com/ch3thanhs/stylus/commit/bbd0bb6c1f529165f663d56eb59ce8f2fa575315))
+
 ## [1.5.4](https://github.com/ch3thanhs/stylus/compare/v1.5.3...v1.5.4) (2026-09-29)
 
 ### 🐛 Bug Fixes
