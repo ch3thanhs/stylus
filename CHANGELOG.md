@@ -1,3 +1,9 @@
+## [1.6.0-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.5.5-dev.1...v1.6.0-dev.1) (2026-10-04)
+
+### ✨ New Features
+
+* **telegram:** add force system font patch ([b72a882](https://github.com/ch3thanhs/stylus/commit/b72a882ed7ca4bb9e4072b673863e7efa34ee547))
+
 ## [1.5.5-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.5.4...v1.5.5-dev.1) (2026-09-30)
 
 ### 🐛 Bug Fixes
