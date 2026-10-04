@@ -136,7 +136,7 @@ private val forceSystemFontTelegramXmlPatch = resourcePatch(
 val forceSystemFontTelegramPatch = bytecodePatch(
     name = "Force system font (Telegram)",
     description =
-        "Renders the app using the device's system font instead Telegram's bundled font.",
+        "Renders the app using the device's system font instead of Telegram's bundled font.",
     default = true,
 ) {
     category("Font")
