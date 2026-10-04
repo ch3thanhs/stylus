@@ -13,6 +13,12 @@ A collection of font related [Morphe](https://morphe.software) patches.
 > - If you already patched Reddit using Stylus, your install continues to work and nothing needs to change.
 > - For all future Reddit patching, use the official Morphe source.
 
+> [!NOTE]
+> **Telegram** dependency
+>
+> Telegram font patch needs the `Bypass integrity check` patch from - [Doom's Morphe Patches](https://github.com/rushiranpise/morphe-patches/blob/main/PATCHES.md#telegram-orgtelegrammessenger)
+
+
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
