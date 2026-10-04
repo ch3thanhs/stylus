@@ -1,3 +1,9 @@
+## [1.6.0-dev.2](https://github.com/ch3thanhs/stylus/compare/v1.6.0-dev.1...v1.6.0-dev.2) (2026-10-04)
+
+### 🐛 Bug Fixes
+
+* **telegram:** update patch description ([c973db1](https://github.com/ch3thanhs/stylus/commit/c973db14663f83acd9965f89f5801862c7e7bd09))
+
 ## [1.6.0-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.5.5-dev.1...v1.6.0-dev.1) (2026-10-04)
 
 ### ✨ New Features

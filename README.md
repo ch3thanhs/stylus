@@ -22,7 +22,7 @@ A collection of font related [Morphe](https://morphe.software) patches.
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.6.0-dev.1](https://github.com/ch3thanhs/stylus/releases/tag/v1.6.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;6 patches total
+> **[v1.6.0-dev.2](https://github.com/ch3thanhs/stylus/releases/tag/v1.6.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;6 patches total
 <details open>
 <summary>📦 GitHub&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>
@@ -67,7 +67,7 @@ A collection of font related [Morphe](https://morphe.software) patches.
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Force system font (Telegram)](#force-system-font-telegram) | Renders the app using the device's system font instead Telegram's bundled font. |  |
+| [Force system font (Telegram)](#force-system-font-telegram) | Renders the app using the device's system font instead of Telegram's bundled font. |  |
 
 </details>
 
