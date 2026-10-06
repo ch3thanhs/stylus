@@ -15,7 +15,7 @@ A collection of font-related [Morphe](https://morphe.software) patches to improv
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.6.0](https://github.com/ch3thanhs/stylus/releases/tag/v1.6.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;6 patches total
+> **[v1.7.0-dev.1](https://github.com/ch3thanhs/stylus/releases/tag/v1.7.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;7 patches total
 <details open>
 <summary>📦 GitHub&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>
@@ -56,6 +56,21 @@ A collection of font-related [Morphe](https://morphe.software) patches to improv
 **🎯 Supported versions:**
 
 | 12.10.6 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Force system font (Telegram)](#force-system-font-telegram) | Renders the app using the device's system font instead of Telegram's bundled font. |  |
+
+</details>
+
+<details open>
+<summary>📦 Telegram (web version)&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 12.10.5 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
