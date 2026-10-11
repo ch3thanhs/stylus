@@ -15,7 +15,7 @@ object Constants {
         ),
         targets = listOf(
             AppTarget(
-                version = "1.278.0",
+                version = "1.280.0",
                 minSdk = 32,
             ),
         ),

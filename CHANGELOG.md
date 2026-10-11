@@ -1,3 +1,11 @@
+## [1.7.1-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.7.0...v1.7.1-dev.1) (2026-10-11)
+
+### 🚀 Updated App Support
+
+* **Bitwarden:** Update app support to 2026.9.1 ([9a49687](https://github.com/ch3thanhs/stylus/commit/9a49687688d136489d163de9b1b94ca017582ce2))
+* **GitHub:** Update app support to 1.280.0 ([98abb57](https://github.com/ch3thanhs/stylus/commit/98abb57ac390d5fc983dbe57ddad1c4f7a94c2cb))
+* **Telegram:** Update app support to 13.0.1 and 12.10.6 (web version) ([3913f06](https://github.com/ch3thanhs/stylus/commit/3913f0671277772ab78e86dd8a581cf563a0e506))
+
 ## [1.7.0](https://github.com/ch3thanhs/stylus/compare/v1.6.0...v1.7.0) (2026-10-06)
 
 ### ✨ New Features
