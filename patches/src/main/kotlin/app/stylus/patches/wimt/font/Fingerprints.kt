@@ -1,6 +1,7 @@
 package app.stylus.patches.wimt.font
 
 import app.morphe.patcher.Fingerprint
+import app.morphe.patcher.methodCall
 import com.android.tools.smali.dexlib2.AccessFlags
 
 /**
@@ -24,4 +25,24 @@ internal object ResourcesCompatGetFontFingerprint : Fingerprint(
             method.parameters[5].type == "Z" &&
             method.parameters[6].type == "Z"
     },
+)
+
+/**
+ * Compose's AndroidParagraphIntrinsics constructor.
+ *
+ * Its TextPaint is the single paint used to measure and lay out all Compose
+ * text. It is created in this constructor, so the end of the constructor is a
+ * safe place to apply font feature settings after the base SpanStyle has been
+ * copied onto the paint.
+ */
+internal object ComposeParagraphConstructorFingerprint : Fingerprint(
+    returnType = "V",
+    custom = { method, _ ->
+        method.name == "<init>" &&
+            method.parameters.size == 7 &&
+            method.parameters[0].type == "Ljava/lang/String;"
+    },
+    filters = listOf(
+        methodCall(smali = "Ldnv;-><init>(F)V"),
+    ),
 )
