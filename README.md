@@ -15,14 +15,14 @@ A collection of font-related [Morphe](https://morphe.software) patches to improv
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.7.1](https://github.com/ch3thanhs/stylus/releases/tag/v1.7.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;7 patches total
+> **[v1.8.0-dev.1](https://github.com/ch3thanhs/stylus/releases/tag/v1.8.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;9 patches total
 <details open>
 <summary>📦 GitHub&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>
 
 **🎯 Supported versions:**
 
-| 1.280.0 |
+| 1.281.0 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
@@ -35,12 +35,28 @@ A collection of font-related [Morphe](https://morphe.software) patches to improv
 </details>
 
 <details open>
+<summary>📦 Where is my Train&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 7.1.5.974952539 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Custom font (Where is my Train)](#custom-font-where-is-my-train) | Replaces Where is my Train's bundled Google Sans, Nunito Sans, and Roboto UI fonts with a custom font file. Optional OpenType feature settings can enable alternate digits such as Inter's ss01 open-style numbers. | • Custom font<br>• Font feature settings |
+| [Force system font (Where is my Train)](#force-system-font-where-is-my-train) | Renders the app using the device's system font instead of Google Sans / Nunito Sans. |  |
+
+</details>
+
+<details open>
 <summary>📦 Bitwarden&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
 **🎯 Supported versions:**
 
-| 2026.9.1 |
+| 2026.10.0 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
@@ -55,7 +71,7 @@ A collection of font-related [Morphe](https://morphe.software) patches to improv
 
 **🎯 Supported versions:**
 
-| 13.0.1 |
+| 13.1.0 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
@@ -70,7 +86,7 @@ A collection of font-related [Morphe](https://morphe.software) patches to improv
 
 **🎯 Supported versions:**
 
-| 12.10.6 |
+| 13.0.2 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
