@@ -19,6 +19,15 @@ updates:
 
   - package-ecosystem: gradle
     labels: []
+    directory: "/"
+    target-branch: dev
+    schedule:
+      interval: weekly
+    allow:
+      - dependency-name: "gradle-wrapper"
+
+  - package-ecosystem: gradle
+    labels: []
     directories:
       - "/patches"
       - "/extensions/extension"
