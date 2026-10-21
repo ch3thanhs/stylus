@@ -3,10 +3,6 @@ package app.stylus.patches.telegram.shared
 import app.morphe.patcher.patch.ApkFileType
 import app.morphe.patcher.patch.AppTarget
 import app.morphe.patcher.patch.Compatibility
-import app.morphe.patcher.patch.SupportedAbi.ARM64_V8A
-import app.morphe.patcher.patch.SupportedAbi.ARMEABI_V7A
-import app.morphe.patcher.patch.SupportedAbi.X86
-import app.morphe.patcher.patch.SupportedAbi.X86_64
 
 object Constants {
 
@@ -21,13 +17,7 @@ object Constants {
         signatures = setOf(TELEGRAM_SIGNATURE),
         targets = listOf(
             AppTarget(
-                version = "13.0.1",
-                versionCodes = mapOf(
-                    ARM64_V8A to 71122,
-                    ARMEABI_V7A to 71122,
-                    X86_64 to 71122,
-                    X86 to 71122,
-                ),
+                version = "13.1.0",
                 minSdk = 23,
             ),
         ),
@@ -41,14 +31,8 @@ object Constants {
         signatures = setOf(TELEGRAM_SIGNATURE),
         targets = listOf(
             AppTarget(
-                version = "12.10.6",
-                versionCodes = mapOf(
-                    ARM64_V8A to 71059,
-                    ARMEABI_V7A to 71059,
-                    X86_64 to 71059,
-                    X86 to 71059,
-                ),
-                minSdk = 21,
+                version = "13.0.2",
+                minSdk = 23,
             ),
         ),
     )
