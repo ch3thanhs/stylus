@@ -1,3 +1,14 @@
+## [1.8.0](https://github.com/ch3thanhs/stylus/compare/v1.7.1...v1.8.0) (2026-10-21)
+
+### ✨ New Features
+
+* **where-is-my-train:** add font patches ([54ea7f6](https://github.com/ch3thanhs/stylus/commit/54ea7f62b2c50658728ff194b1bc29acc5becd8e))
+* **where-is-my-train:** add optional font feature settings ([c09b8e5](https://github.com/ch3thanhs/stylus/commit/c09b8e562d4f778afcf16ffb7a8299ca4dc1f998))
+
+### 🚀 Updated App Support
+
+* update GitHub, Bitwarden, and Telegram app support ([e551f9a](https://github.com/ch3thanhs/stylus/commit/e551f9a1907c64555984042456bfc03859bf68ea))
+
 ## [1.8.0-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.7.1...v1.8.0-dev.1) (2026-10-21)
 
 ### ✨ New Features
