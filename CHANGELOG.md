@@ -1,3 +1,9 @@
+## [1.8.1-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.8.0...v1.8.1-dev.1) (2026-10-23)
+
+### 🚀 Updated App Support
+
+* update GitHub app support ([3cee4b9](https://github.com/ch3thanhs/stylus/commit/3cee4b9fbc4ab28162bffd03ec87e8b91e65d6a5))
+
 ## [1.8.0](https://github.com/ch3thanhs/stylus/compare/v1.7.1...v1.8.0) (2026-10-21)
 
 ### ✨ New Features
