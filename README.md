@@ -99,7 +99,9 @@ A collection of font-related [Morphe](https://morphe.software) patches to improv
 
 #### How to use these patches
 
-Click here to add these patches to Morphe: https://morphe.software/add-source?github=ch3thanhs/stylus
+<a href="https://morphe.software/add-source?github=ch3thanhs/stylus">
+  <img src=".github/assets/add-to-morphe.svg" alt="Add to Morphe" height="48">
+</a>
 
 Or manually add this repository url as a patch source in Morphe: https://github.com/ch3thanhs/stylus
 

@@ -46,6 +46,7 @@ jobs:
         id: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MORPHE_SIGNING_KEY: ${{ secrets.MORPHE_SIGNING_KEY }}
 
       - name: Attest
         # Build provenance attestation is not available for private user-owned repositories,
