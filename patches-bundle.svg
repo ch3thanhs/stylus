@@ -2,12 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="255.99998"
-   height="255.99998"
-   viewBox="0 0 67.733328 67.733329"
+   width="200"
+   height="200"
+   viewBox="0 0 52.916666 52.916666"
    version="1.1"
    id="svg1"
    xml:space="preserve"
+   sodipodi:docname="stylus.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -20,12 +22,21 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="px"><inkscape:page
+     inkscape:document-units="px"
+     inkscape:zoom="2.2929689"
+     inkscape:cx="127.99999"
+     inkscape:cy="127.99999"
+     inkscape:window-width="1440"
+     inkscape:window-height="830"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"><inkscape:page
        x="0"
        y="0"
-       width="67.73333"
-       height="67.73333"
-       id="page2"
+       width="52.916664"
+       height="52.916664"
+       id="page1"
        margin="0"
        bleed="0" /></sodipodi:namedview><defs
      id="defs1"><linearGradient
@@ -84,9 +95,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-717.34626,-572.26403)"><g
+     transform="translate(-717.34623,-572.26402)"><g
        id="g5"
-       transform="matrix(0.29090906,0,0,0.29090906,508.66371,405.78723)"><g
+       transform="matrix(0.22727271,0,0,0.22727271,554.31301,442.20403)"
+       inkscape:export-filename="stylus.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><g
          id="g4"><rect
            x="717.34625"
            y="572.26404"
