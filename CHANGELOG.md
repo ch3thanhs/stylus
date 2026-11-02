@@ -1,3 +1,9 @@
+## [1.9.1-dev.2](https://github.com/ch3thanhs/stylus/compare/v1.9.1-dev.1...v1.9.1-dev.2) (2026-11-02)
+
+### 🐛 Bug Fixes
+
+* **bitwarden:** use the real this register for the font feature call ([f67ac89](https://github.com/ch3thanhs/stylus/commit/f67ac89e72d53ce349e06aa1068482fe5dcc2f03))
+
 ## [1.9.1-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.9.0...v1.9.1-dev.1) (2026-11-02)
 
 ### 🐛 Bug Fixes
