@@ -212,12 +212,16 @@ val customFontBitwardenPatch = bytecodePatch(
         // The constructor copies the base SpanStyle onto the single TextPaint
         // used by Compose text. Apply the setting at the end so it wins over
         // that SpanStyle, which may carry its own fontFeatureSettings value.
+        // Scratch values go in the lowest registers on purpose. The parameter
+        // registers of this constructor resolve to high register numbers, which
+        // the 4-bit register fields of iget-object and of the invoke register
+        // list cannot encode, and the snippet then fails to assemble.
         target.method.addInstructions(
             returnIndex,
             """
-                iget-object p1, p0, ${target.paintField.definingClass}->${target.paintField.name}:${target.paintField.type}
-                const-string p2, "${escapeSmaliString(featureSettings)}"
-                invoke-virtual { p1, p2 }, Landroid/graphics/Paint;->setFontFeatureSettings(Ljava/lang/String;)V
+                iget-object v0, p0, ${target.paintField.definingClass}->${target.paintField.name}:${target.paintField.type}
+                const-string v1, "${escapeSmaliString(featureSettings)}"
+                invoke-virtual { v0, v1 }, Landroid/graphics/Paint;->setFontFeatureSettings(Ljava/lang/String;)V
             """.trimIndent(),
         )
     }
