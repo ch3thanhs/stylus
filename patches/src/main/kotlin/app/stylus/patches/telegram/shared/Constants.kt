@@ -17,7 +17,7 @@ object Constants {
         signatures = setOf(TELEGRAM_SIGNATURE),
         targets = listOf(
             AppTarget(
-                version = "13.1.1",
+                version = "13.2.0",
                 minSdk = 23,
             ),
         ),
