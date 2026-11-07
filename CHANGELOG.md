@@ -1,3 +1,9 @@
+## [1.10.0](https://github.com/ch3thanhs/stylus/compare/v1.9.3...v1.10.0) (2026-11-07)
+
+### ✨ New Features
+
+* **telegram:** remove Telegram patches since Hushgram covers it ([58eda24](https://github.com/ch3thanhs/stylus/commit/58eda24b9cb7b0dc73fe2502d37a93fefe52c10b))
+
 ## [1.10.0-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.9.3...v1.10.0-dev.1) (2026-11-07)
 
 ### ✨ New Features
