@@ -6,12 +6,6 @@ A collection of font-related [Morphe](https://morphe.software) patches to improv
 > **Experimental & AI-Assisted**  
 > These patches were created with AI assistance and have only been tested on my personal device. Please review the source code carefully and use them at your own risk.
 
-> [!IMPORTANT]
-> **Telegram** dependency
->
-> Telegram font patch needs the `Bypass integrity check` patch from - [Doom's Morphe Patches](https://github.com/rushiranpise/morphe-patches/blob/main/PATCHES.md#telegram-orgtelegrammessenger)
-
-
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
