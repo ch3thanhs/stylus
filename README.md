@@ -9,7 +9,7 @@ A collection of font-related [Morphe](https://morphe.software) patches to improv
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.9.3](https://github.com/ch3thanhs/stylus/releases/tag/v1.9.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;11 patches total
+> **[v1.10.0-dev.1](https://github.com/ch3thanhs/stylus/releases/tag/v1.10.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;9 patches total
 <details open>
 <summary>📦 Bitwarden&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
 <br>
@@ -64,40 +64,6 @@ A collection of font-related [Morphe](https://morphe.software) patches to improv
 |----------|----------------|-----------|
 | [Custom font](#custom-font) | Replaces the bundled Google Sans, Nunito Sans, and Roboto UI fonts with your own font. | • Custom font<br>• Font feature settings |
 | [Force system font](#force-system-font) | Uses the device's system font for UI text. |  |
-
-</details>
-
-<details open>
-<summary>📦 Telegram&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
-<br>
-
-**Package name:** `org.telegram.messenger`
-
-**🎯 Supported versions:**
-
-| 13.1.1 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Force system font](#force-system-font) | Uses the device's system font for all app text. |  |
-
-</details>
-
-<details open>
-<summary>📦 Telegram (web version)&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
-<br>
-
-**Package name:** `org.telegram.messenger.web`
-
-**🎯 Supported versions:**
-
-| 13.1.0 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Force system font](#force-system-font) | Uses the device's system font for all app text. |  |
 
 </details>
 
