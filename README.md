@@ -9,7 +9,7 @@ A collection of font-related [Morphe](https://morphe.software) patches to improv
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.10.0](https://github.com/ch3thanhs/stylus/releases/tag/v1.10.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;9 patches total
+> **[v1.11.0-dev.1](https://github.com/ch3thanhs/stylus/releases/tag/v1.11.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;9 patches total
 <details open>
 <summary>📦 Bitwarden&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
 <br>
@@ -42,7 +42,7 @@ A collection of font-related [Morphe](https://morphe.software) patches to improv
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Custom font](#custom-font) | Replaces the bundled Inter and Mona Sans UI fonts with your own font. | • Custom font |
+| [Custom font](#custom-font) | Replaces the bundled Inter and Mona Sans UI fonts with your own font. | • Custom font<br>• Font feature settings |
 | [Custom monospace font](#custom-monospace-font) | Replaces the bundled Roboto Mono code font with your own monospace font. | • Custom monospace font |
 | [Force system font](#force-system-font) | Uses the device's system font for UI text. |  |
 | [Force system font (including monospace)](#force-system-font-including-monospace) | Uses the device's system font for UI and monospace text. |  |

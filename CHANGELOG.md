@@ -1,3 +1,9 @@
+## [1.11.0-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.10.0...v1.11.0-dev.1) (2026-11-07)
+
+### ✨ New Features
+
+* **github:** support variable font weights and font feature settings ([f56bd19](https://github.com/ch3thanhs/stylus/commit/f56bd19c6c515bf384a1f3ade951ab97b9f3d290))
+
 ## [1.10.0](https://github.com/ch3thanhs/stylus/compare/v1.9.3...v1.10.0) (2026-11-07)
 
 ### ✨ New Features
