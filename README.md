@@ -15,7 +15,7 @@ A collection of font-related [Morphe](https://morphe.software) patches to improv
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.9.2](https://github.com/ch3thanhs/stylus/releases/tag/v1.9.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;11 patches total
+> **[v1.9.3-dev.1](https://github.com/ch3thanhs/stylus/releases/tag/v1.9.3-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;11 patches total
 <details open>
 <summary>📦 Bitwarden&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
 <br>
@@ -43,7 +43,7 @@ A collection of font-related [Morphe](https://morphe.software) patches to improv
 
 **🎯 Supported versions:**
 
-| 1.282.0 |
+| 1.283.0 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
@@ -81,7 +81,7 @@ A collection of font-related [Morphe](https://morphe.software) patches to improv
 
 **🎯 Supported versions:**
 
-| 13.1.1 |
+| 13.2.0 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
@@ -98,7 +98,7 @@ A collection of font-related [Morphe](https://morphe.software) patches to improv
 
 **🎯 Supported versions:**
 
-| 13.1.0 |
+| 13.2.0 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
