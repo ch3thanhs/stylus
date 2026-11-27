@@ -1,10 +1,11 @@
-# Stylus
+<h1 align="center">
+  <img src="assets/patches-bundle-rounded.png" alt="" width="96" height="96"><br>
+  Stylus
+</h1>
 
-A collection of font-related [Morphe](https://morphe.software) patches to improve readability/accessibility.
-
-> [!NOTE]
-> **Experimental & AI-Assisted**  
-> These patches were created with AI assistance and have only been tested on my personal device. Please review the source code carefully and use them at your own risk.
+<p align="center">
+  A collection of font-related <a href="https://morphe.software">Morphe</a> patches to improve readability/accessibility.
+</p>
 
 ## 🩹 Patches list
 
@@ -31,6 +32,10 @@ Or manually add this repository url as a patch source in Morphe: https://github.
 
 To build Stylus,
 you can follow the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation).
+
+> [!NOTE]
+> **Experimental & AI-Assisted**\
+> These patches were created with AI assistance and have only been tested on my personal device. Please review the source code carefully and use them at your own risk.
 
 ## License
 
