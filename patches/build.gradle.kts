@@ -48,6 +48,9 @@ tasks {
 
         classpath = sourceSets["main"].runtimeClasspath + patchListGeneratorClasspath
         mainClass.set("util.PatchListGeneratorKt")
+        argumentProviders.add(CommandLineArgumentProvider {
+            listOf(patchBundle.get().asFile.absolutePath)
+        })
     }
 
     // Check the class files after D8 has backported calls for Android API 26.
