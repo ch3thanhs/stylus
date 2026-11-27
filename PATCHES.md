@@ -1,6 +1,6 @@
 # Patches
 
-> Generated from `patches-list.json` — **v1.12.0** (`main`) · **11 patches** across **4 apps** · back to [README](README.md)
+> Generated from `patches-list.json` — **v1.12.1-dev.1** (`dev`) · **11 patches** across **4 apps** · back to [README](README.md)
 
 ---
 
@@ -35,7 +35,7 @@
 
 <img src="https://publicmetadata.co.uk/com.github.android" width="48" height="48" alt="">
 
-**Supported versions:** `1.284.0`
+**Supported versions:** `1.285.0`
 
 | Patch | Details |
 |---|---|
