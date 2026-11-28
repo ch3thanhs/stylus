@@ -10,7 +10,7 @@
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.12.2-dev.1](https://github.com/ch3thanhs/stylus/releases/tag/v1.12.2-dev.1)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`dev`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**11 patches** across **4 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
+> **[v1.12.2](https://github.com/ch3thanhs/stylus/releases/tag/v1.12.2)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`main`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**11 patches** across **4 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
 
 | # | App | Patches | Version | Package |
 |---|---|---|---|---|

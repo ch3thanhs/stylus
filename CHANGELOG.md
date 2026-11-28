@@ -1,3 +1,13 @@
+## [1.12.2](https://github.com/ch3thanhs/stylus/compare/v1.12.1...v1.12.2) (2026-11-28)
+
+### 🐛 Bug Fixes
+
+* **ChatGPT:** update font hooks for 1.2026.328 ([b7a7167](https://github.com/ch3thanhs/stylus/commit/b7a71677fcff7c02ff368d9a7da2a792e8760a33))
+
+### 🚀 Updated App Support
+
+* **ChatGPT:** Update app support to 1.2026.328 ([ae71bfc](https://github.com/ch3thanhs/stylus/commit/ae71bfcdf88b2406c72745489d80b80cefcdf7aa))
+
 ## [1.12.2-dev.1](https://github.com/ch3thanhs/stylus/compare/v1.12.1...v1.12.2-dev.1) (2026-11-28)
 
 ### 🐛 Bug Fixes
