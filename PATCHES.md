@@ -1,6 +1,6 @@
 # Patches
 
-> Generated from `patches-list.json` — **v1.12.1** (`main`) · **11 patches** across **4 apps** · back to [README](README.md)
+> Generated from `patches-list.json` — **v1.12.2-dev.1** (`dev`) · **11 patches** across **4 apps** · back to [README](README.md)
 
 ---
 
@@ -22,7 +22,7 @@
 
 <img src="https://publicmetadata.co.uk/com.openai.chatgpt" width="48" height="48" alt="">
 
-**Supported versions:** `1.2026.321`
+**Supported versions:** `1.2026.328`
 
 | Patch | Details |
 |---|---|
