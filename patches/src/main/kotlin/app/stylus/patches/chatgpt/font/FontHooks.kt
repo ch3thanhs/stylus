@@ -47,20 +47,20 @@ internal val chatGptFontHooksPatch = patch {
 // These obfuscated classes are scoped to the supported ChatGPT build.
 private fun patchComposeTypeface() {
     // The Android platform font implementations take the family name, weight, and style.
-    for ((owner, name) in listOf("Lwau0;" to "c", "Lqop0;" to "i")) {
-        method(owner, name, "(${STRING}Ldv90;I)$TYPEFACE").returnCustomTypeface(
+    for ((owner, name) in listOf("Lf9i0;" to "b", "Ljib0;" to "o")) {
+        method(owner, name, "(${STRING}Lora0;I)$TYPEFACE").returnCustomTypeface(
             """
-                iget v0, p1, Ldv90;->a:I
+                iget v0, p1, Lora0;->a:I
                 invoke-static {p0, v0, p2}, $EXTENSION->composeTypeface(${STRING}II)$TYPEFACE
             """.trimIndent(),
         )
     }
 
     // The legacy generic-family branch specializes sans-serif before reaching its helper.
-    method("Lqop0;", "b", "(Lkfa0;Ldv90;I)$TYPEFACE").returnCustomTypeface(
+    method("Ljib0;", "e", "(Lecb0;Lora0;I)$TYPEFACE").returnCustomTypeface(
         """
-            iget-object v0, p1, Lkfa0;->f:$STRING
-            iget v1, p2, Ldv90;->a:I
+            iget-object v0, p1, Lecb0;->f:$STRING
+            iget v1, p2, Lora0;->a:I
             invoke-static {v0, v1, p3}, $EXTENSION->composeTypeface(${STRING}II)$TYPEFACE
         """.trimIndent(),
     )
@@ -69,8 +69,8 @@ private fun patchComposeTypeface() {
 internal fun patchComposeDesignTypeface() {
     // The design system also loads two bundled text faces through Compose resources.
     method(
-        "Lujf0;", "h",
-        "(Landroid/content/res/AssetManager;${STRING}Landroid/content/Context;Lzu90;)$TYPEFACE",
+        "Llsg0;", "l",
+        "(Landroid/content/res/AssetManager;${STRING}Landroid/content/Context;Lkra0;)$TYPEFACE",
     ).returnCustomTypeface(
         "invoke-static/range {p1 .. p1}, $EXTENSION->composeDesignTypeface($STRING)$TYPEFACE",
     )
@@ -78,29 +78,29 @@ internal fun patchComposeDesignTypeface() {
 
 private fun patchValdiTypeface() {
     // The registered-family path covers the C++ text renderer and weighted Android spans.
-    method("Llt90;", "a", "(FZ)$TYPEFACE").returnCustomTypeface(
+    method("Lypa0;", "a", "(FZ)$TYPEFACE").returnCustomTypeface(
         """
-            iget-object v0, p0, Llt90;->a:Lzs90;
-            iget-object v1, v0, Lzs90;->b:$STRING
-            iget-object v0, v0, Lzs90;->a:$STRING
+            iget-object v0, p0, Lypa0;->a:Lkpa0;
+            iget-object v1, v0, Lkpa0;->b:$STRING
+            iget-object v0, v0, Lkpa0;->a:$STRING
             invoke-static {v0, v1, p1, p2}, $EXTENSION->valdiTypeface($STRING${STRING}FZ)$TYPEFACE
         """.trimIndent(),
     )
 
     // The named lookup is also used directly by Valdi's Android text views.
-    method("Lut90;", "d", "(Lzs90;)$TYPEFACE").returnCustomTypeface(
+    method("Lgqa0;", "d", "(Lkpa0;)$TYPEFACE").returnCustomTypeface(
         """
-            iget-object v0, p1, Lzs90;->a:$STRING
-            iget-object v1, p1, Lzs90;->c:Lcv90;
-            iget-short v1, v1, Lcv90;->a:S
-            iget v2, p1, Lzs90;->d:I
+            iget-object v0, p1, Lkpa0;->a:$STRING
+            iget-object v1, p1, Lkpa0;->c:Lnra0;
+            iget-short v1, v1, Lnra0;->a:S
+            iget v2, p1, Lkpa0;->d:I
             invoke-static {v0, v1, v2}, $EXTENSION->valdiNamedTypeface(${STRING}II)$TYPEFACE
         """.trimIndent(),
     )
 }
 
 internal fun patchVisualizationFontFamily(target: ChatGptFont) {
-    val method = mutableClassDefBy("Lkl50;").methods.singleOrNull { candidate ->
+    val method = mutableClassDefBy("Ly7m1;").methods.singleOrNull { candidate ->
         candidate.implementation?.instructions?.any {
             ((it as? ReferenceInstruction)?.reference as? StringReference)?.string == target.previewVariable
         } == true
@@ -123,7 +123,7 @@ internal fun patchVisualizationFontFamily(target: ChatGptFont) {
 internal fun patchDirectMonospaceSpans() {
     val getMonospace = ImmutableMethodReference(EXTENSION, "monospaceTypeface", emptyList(), TYPEFACE)
     // Some code spans read Typeface.MONOSPACE directly instead of using Compose's resolver.
-    for (owner in listOf("Lgzl;", "Lwxl;")) {
+    for (owner in listOf("Laem;", "Lqcm;")) {
         for (name in listOf("updateDrawState", "updateMeasureState")) {
             val span = method(owner, name, "(Landroid/text/TextPaint;)V")
             val field = span.implementation!!.instructions.withIndex().singleOrNull { (_, instruction) ->
@@ -138,12 +138,12 @@ internal fun patchDirectMonospaceSpans() {
 }
 
 internal fun patchFontFeatureCalls() {
-    val paragraph = method("Lp73;", "<init>", "(${STRING}Luaa1;Ljava/util/List;Ljava/util/List;Lat90;Ldhz;Z)V")
+    val paragraph = method("Lob3;", "<init>", "(${STRING}Lkac1;Ljava/util/List;Ljava/util/List;Llpa0;Ll200;Z)V")
     if (paragraph.replacePaintCalls() == 0) {
         throw PatchException("Could not find Compose font operations in the paragraph renderer.")
     }
 
-    val spans = listOf("Ltxb1;", "Lsxb1;", "Lgzl;", "Ljgx;", "Lwxl;")
+    val spans = listOf("Lgyd1;", "Lfyd1;", "Laem;", "Lp1y;", "Lqcm;", "Lqpa0;")
     for (owner in spans) {
         for (name in listOf("updateDrawState", "updateMeasureState")) {
             method(owner, name, "(Landroid/text/TextPaint;)V").replacePaintCalls()
@@ -153,8 +153,8 @@ internal fun patchFontFeatureCalls() {
     val valdiPaintClasses = listOf(
         "Lcom/snap/valdi/attributes/impl/fonts/ElementFont;",
         "Lcom/snap/valdi/attributes/impl/richtext/ElementTextLayoutBuilder;",
-        "Lws90;",
-        "Lnba1;",
+        "Lhpa0;",
+        "Ldbc1;",
     )
     for (owner in valdiPaintClasses) {
         if (mutableClassDefBy(owner).methods.sumOf { it.replacePaintCalls() } == 0) {
